@@ -96,7 +96,7 @@ cart.forEach((cartItem) => {
             </div>
         </div>
     `;
-})
+});
 
 document.querySelector('.js-order-summary')
     .innerHTML = cartSummaryHTML;
@@ -109,5 +109,5 @@ document.querySelectorAll('.js-delete-link').forEach((link) => {
             `.js-cart-item-container-${productId}`);
         container.remove();
         
-    })
-})
+    });
+});
